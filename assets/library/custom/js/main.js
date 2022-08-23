@@ -3,6 +3,12 @@ $(document).ready(function(){
   // initiate the wow
   new WOW().init();
 
+  // info counter
+  $('.counterUp').counterUp({
+    delay: 10,
+    time: 2000
+  });
+
   // testimonials carousel
   $(".testimonial-carousel").owlCarousel({
     autoplay: true,

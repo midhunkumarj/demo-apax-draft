@@ -352,6 +352,69 @@ hr{
   }
 }
 
+/* services */
+#services {
+  width: 100%;
+  margin-top: 95px;
+}
+
+/* services-landing */
+#ser-landing {
+  width: 100%;
+  background-color: #FCE9EB;
+}
+#ser-landing .container{
+  padding: 60px 0px 60px 0px;
+}
+#ser-landing .landing-block{
+  margin: 25px 25px 25px 25px;
+}
+#ser-landing .landing-lt{
+  padding-left: 20px;
+}
+#ser-landing .landing-rt{
+  text-align: center;
+}
+
+/* services-about */
+#ser-about {
+  width: 100%;
+}
+#ser-about .container{
+  padding: 40px 0px 40px 0px;
+}
+#ser-about .about-block{
+  margin: 25px 25px 40px 25px;
+}
+#ser-about .about-lt{
+  text-align: center;
+}
+#ser-about .about-rt{
+  padding: 0px 20px 0px 20px;
+}
+#ser-about .count-block{
+  margin: 0px 30px 30px 30px;
+}
+#ser-about .count-content{
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px 30px 30px;
+  border: 2px solid var(--light);
+}
+
+/* services-work */
+#ser-work {
+  width: 100%;
+}
+#ser-work .container{
+  padding: 40px 0px 40px 0px;
+}
+#ser-work .work-block{
+  margin: 25px 25px 25px 25px;
+  background-color: #FCE9EB;
+}
+
+/* contact */
 #contact {
   width: 100%;
   margin-top: 95px;
