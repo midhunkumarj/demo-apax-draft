@@ -162,6 +162,27 @@ hr{
 .navbar-custom .nav-item .nav-link.active{
   color: var(--primary);
 }
+.navbar-custom .drop-toggle{
+  position: relative;
+  display: inline-block;
+}
+.navbar-custom .drop-menu{
+  min-width: 180%;
+  background: #f2f2f2;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+.navbar-custom .drop-toggle:hover .drop-menu{
+  display: block;
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+}
+.navbar-custom .drop-list a{
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+}
 
 /* footer */
 #footer{
